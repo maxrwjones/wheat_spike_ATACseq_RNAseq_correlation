@@ -4,7 +4,7 @@ BASH and R scripts for Chapter 4 of my PhD thesis "Exploring genetic loci for th
 
 This code was used to explore whether, across wheat spike development, correlations could be identified between the accessibility of accessible chromatin regions (ACRs) and the expression of neighbouring genes.
 
-Note:
+Notes:
 - I use the term CACRs (consensus ACRs) here because I am interested in ACRs which were detected across all developmental stages analysed
 - I also call CACRs 'peaks' as a shorthand in some scripts
 - BASH scripts are set up to run using the SLURM job handler. SLURM lines can be deleted if running locally or replaced as needed.
