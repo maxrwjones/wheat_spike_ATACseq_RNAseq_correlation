@@ -9,6 +9,18 @@ Notes:
 - I also call CACRs 'peaks' as a shorthand in some scripts
 - BASH scripts are set up to run using the SLURM job handler. SLURM lines can be deleted if running locally or replaced as needed.
 
+
+### BASH requirements
+- bedtools
+- awk
+
+### R requirements
+- I used R 4.1.3 for all analyses except ImpulseDE2. Other R versions not tested.
+- tidyverse (CRAN)
+- cowplot (CRAN)
+- ImpulseDE2 (BioConductor; requires R ≤ 3.6)
+
+
 ### Initial set-up
 The code can be executed linearly from script 1 to script 20 and requires the user to set up a UNIX directory with the following sub-directories and files:
 - scripts (containing scripts 1-20 from this pipeline)
