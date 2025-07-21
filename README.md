@@ -7,7 +7,7 @@ This code was used to explore whether, across wheat spike development, correlati
 _Note:
 - I use the term CACRs (consensus ACRs) here because I am interested in ACRs which were detected across all developmental stages analysed
 - I also call CACRs 'peaks' as a shorthand in some scripts
-- BASH scripts are set up to run using the SLURM job handler. SLURM lines can be deleted if running locally or replaced as needed. _
+- BASH scripts are set up to run using the SLURM job handler. SLURM lines can be deleted if running locally or replaced as needed._
 
 ### Initial set-up
 The code can be executed linearly from script 1 to script 20 and requires the user to set up a UNIX directory with the following sub-directories and files:
