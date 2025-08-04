@@ -51,8 +51,8 @@ The 'inputs' sub-directory should contain:
 12) Enrichment analysis of DEGs for CACRs and dCACRs, then test simulation of random CACR-gene pairs
 13) Enrichment analysis of DEGs for UMR-supported CACRs and dCACRs, then test simulation of random CACR-gene pairs
 14) Normalise CACRs and gene trajectories to the same scale to enable correlation
-15) Calculate sums of squares difference between CACRs and genes to find **enhancer** candidates
-16) Calculate sums of squares difference between CACRs and genes to find **silencer** candidates
+15) Calculate sums of squares difference between gene and CACR profiles to find **enhancer** candidates
+16) Calculate sums of squares difference between gene and inverted CACR profiles to find **silencer** candidates
 17) Simulate **enhancer** candidates
 18) Simulate **silencer** candidates
 19) Compare simulated **enhancer** candidates with 'real' candidates. Is there any capacity to detect real signal?
